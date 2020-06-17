@@ -11,3 +11,4 @@ Just compile the `.cpp` file with and paste the contents of the `testCases` file
 |Problem and souce |Problem # |Difficulty|Language|
 |---|---|---|---|
 |[Two Sum](https://leetcode.com/problems/two-sum/)|1|Easy|[C++](leetcode/cpp/1-TwoSum/1-TwoSum.cpp)|
+|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)|7|Easy|[C++](leetcode/cpp/7-ReverseInteger/7-ReverseInteger.cpp)
