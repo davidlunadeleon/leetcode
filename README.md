@@ -9,5 +9,5 @@ Just compile the `.cpp` file with and paste the contents of the `testCases` file
 ## List of problems
 
 |Problem and souce |Problem # |Difficulty|Language|
-|---|---|---|---|---|
+|---|---|---|---|
 |[Two Sum](https://leetcode.com/problems/two-sum/)|1|Easy|[C++](leetcode/cpp/1-TwoSum/1-TwoSum.cpp)|
