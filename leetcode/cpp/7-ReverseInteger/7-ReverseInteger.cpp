@@ -1,5 +1,5 @@
 //Source: https://leetcode.com/problems/reverse-integer/
-//Date: 16.06.2020
+//Date: 17.06.2020
 //Solution by: David Luna
 //Runtime: 4ms
 //Memory usage: 5.9 MB
@@ -15,13 +15,11 @@ using namespace std;
 class Solution {
     public:
         int reverse(int x){
-            int divide = 10;
             int64_t ans = 0;
             int ansTemp;
             while (x != 0) {
-                int temp = x % divide;
-                ans = ans * 10 + temp * (divide / 10);
-                x = x / divide;
+                ans = ans * 10 + x % 10;
+                x = x / 10;
             }
             if(x < 0){
                 ans *= -1;
