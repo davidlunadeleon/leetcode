@@ -4,9 +4,16 @@
 //Runtime:
 //Memory usage:
 
+#include <iostream>
+
+using namespace std;
+
 // Leetcode solution starts
 
-
+class Solution{
+    public:
+    
+};
 
 // Leetcode solution ends
 
