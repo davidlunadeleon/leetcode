@@ -15,3 +15,4 @@ Just compile the `.cpp` file with and paste the contents of the `testCases` file
 |[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|3|Medium|[C++](leetcode/cpp/3-LongestSubstringWithoutRepeatingCharacters/3-LongestSubstringWithoutRepeatingCharacters.cpp)|
 |[Reverse Integer](https://leetcode.com/problems/reverse-integer/)|7|Easy|[C++](leetcode/cpp/7-ReverseInteger/7-ReverseInteger.cpp)|
 |[Palindrome Number](https://leetcode.com/problems/palindrome-number/submissions/)|9|Easy|[C++](leetcode/cpp/9-PalindromeNumber/9-PalindromeNumber.cpp)|
+|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)|14|Easy|[C++](leetcode/cpp/14-LongestCommonPrefix/14-LongestCommonPrefix.cpp)|
