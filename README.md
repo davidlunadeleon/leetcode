@@ -18,3 +18,4 @@ Just compile the `.cpp` file with and paste the contents of the `testCases` file
 |[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)|14|Easy|[C++](leetcode/cpp/14-LongestCommonPrefix/14-LongestCommonPrefix.cpp)|
 |[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|19|Medium|[C++](leetcode/cpp/19-RemoveNthNodeFromEndOfList/19-RemoveNthNodeFromEndOfList.cpp)|
 |[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|20|Easy|[C++](leetcode/cpp/20-ValidParentheses/20-ValidParentheses.cpp)|
+|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|21|Easy|[C++](leetcode/cpp/21-MergeTwoSortedLists/21-MergeTwoSortedLists.cpp)|
