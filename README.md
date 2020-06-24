@@ -13,6 +13,7 @@ Just compile the `.cpp` file with and paste the contents of the `testCases` file
 |[Two Sum](https://leetcode.com/problems/two-sum/)|1|Easy|[C++](leetcode/cpp/1-TwoSum/1-TwoSum.cpp)|
 |[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|2|Medium|[C++](leetcode/cpp/2-AddTwoNumbers/2-AddTwoNumbers.cpp)|
 |[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|3|Medium|[C++](leetcode/cpp/3-LongestSubstringWithoutRepeatingCharacters/3-LongestSubstringWithoutRepeatingCharacters.cpp)|
+|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|5|Medium|[C++](leetcode/cpp/5-LongestPalindromicSubstring/5-LongestPalindromicSubstring.cpp)|
 |[Reverse Integer](https://leetcode.com/problems/reverse-integer/)|7|Easy|[C++](leetcode/cpp/7-ReverseInteger/7-ReverseInteger.cpp)|
 |[Palindrome Number](https://leetcode.com/problems/palindrome-number/submissions/)|9|Easy|[C++](leetcode/cpp/9-PalindromeNumber/9-PalindromeNumber.cpp)|
 |[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)|14|Easy|[C++](leetcode/cpp/14-LongestCommonPrefix/14-LongestCommonPrefix.cpp)|
