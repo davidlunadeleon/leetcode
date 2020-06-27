@@ -14,6 +14,7 @@ Just compile the `.cpp` file with and paste the contents of the `testCases` file
 |[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|2|Medium|[C++](leetcode/cpp/2-AddTwoNumbers/2-AddTwoNumbers.cpp)|
 |[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|3|Medium|[C++](leetcode/cpp/3-LongestSubstringWithoutRepeatingCharacters/3-LongestSubstringWithoutRepeatingCharacters.cpp)|
 |[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|5|Medium|[C++](leetcode/cpp/5-LongestPalindromicSubstring/5-LongestPalindromicSubstring.cpp)|
+|[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/)|6|Medium|[C++](leetcode/cpp/6-ZigZagConversion/6-ZigZagConversion.cpp)|
 |[Reverse Integer](https://leetcode.com/problems/reverse-integer/)|7|Easy|[C++](leetcode/cpp/7-ReverseInteger/7-ReverseInteger.cpp)|
 |[Palindrome Number](https://leetcode.com/problems/palindrome-number/submissions/)|9|Easy|[C++](leetcode/cpp/9-PalindromeNumber/9-PalindromeNumber.cpp)|
 |[Container With Most Water](https://leetcode.com/problems/container-with-most-water/submissions/)|11|Medium|[C++](leetcode/cpp/11-ContainerWithMostWater/11-ContainerWithMostWater.cpp)|
