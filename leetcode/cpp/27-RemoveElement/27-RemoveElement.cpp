@@ -1,8 +1,8 @@
 //Source: https://leetcode.com/problems/remove-element/
 //Date: 29.06.2020
 //Solution by: David Luna
-//Runtime:
-//Memory usage:
+//Runtime: 4ms
+//Memory usage: 8.9 MB
 
 #include <iostream>
 #include <vector>
