@@ -24,3 +24,4 @@ Just compile the `.cpp` file with and paste the contents of the `testCases` file
 |[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|20|Easy|[C++](leetcode/cpp/20-ValidParentheses/20-ValidParentheses.cpp)|
 |[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|21|Easy|[C++](leetcode/cpp/21-MergeTwoSortedLists/21-MergeTwoSortedLists.cpp)|
 |[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|26|Easy|[C++](leetcode/cpp/26-RemoveDuplicatesFromSortedArray/26-RemoveDuplicatesFromSortedArray.cpp)|
+|[Remove Element](https://leetcode.com/problems/remove-element/)|27|Easy|[C++](leetcode/cpp/27-RemoveElement/27-RemoveElement.cpp)|
