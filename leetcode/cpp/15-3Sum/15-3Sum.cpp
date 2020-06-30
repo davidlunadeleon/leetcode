@@ -1,8 +1,8 @@
 //Source: https://leetcode.com/problems/3sum/
 //Date: 30.06.2020
 //Solution by: David Luna
-//Runtime: 200ms
-//Memory usage: 34.2 MB
+//Runtime: 292ms
+//Memory usage: 34.5 MB
 
 /* 
     Note: this solution is completely based on the solution to the problem 4 sum in leetcode.
@@ -39,7 +39,7 @@ class Solution {
             }
             set<vector<int>> ans;
             for(int i = index; i < nums.size(); i++){
-                if(i == 0 || (i > 0 && nums[i] != nums[i - 1])){
+                if(i == index || (nums[i] != nums[i - 1])){
                     set<vector<int>> temp = nSum(nums, numSum - 1, target - nums[i], i + 1);
                     for(auto it = temp.begin(); it != temp.end(); it++){
                         vector<int> tempVector = *it;
