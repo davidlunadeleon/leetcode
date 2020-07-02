@@ -28,3 +28,4 @@ Just compile the `.cpp` file with and paste the contents of the `testCases` file
 |[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|21|Easy|[C++](leetcode/cpp/21-MergeTwoSortedLists/21-MergeTwoSortedLists.cpp)|
 |[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|26|Easy|[C++](leetcode/cpp/26-RemoveDuplicatesFromSortedArray/26-RemoveDuplicatesFromSortedArray.cpp)|
 |[Remove Element](https://leetcode.com/problems/remove-element/)|27|Easy|[C++](leetcode/cpp/27-RemoveElement/27-RemoveElement.cpp)|
+|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)|74|Medium|[C++](leetcode/cpp/74-SearchA2DMatrix/74-SearchA2DMatrix.cpp)|
