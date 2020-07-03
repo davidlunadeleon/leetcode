@@ -6,6 +6,23 @@ Each problem includes a file with some test cases. Although these do not cover a
 
 Just compile the `.cpp` file with and paste the contents of the `testCases` file in the terminal. Feel free to use these test cases or the main program and functions for your own solutions. New test cases are welcome :) .
 
+If you want to get fancy, I recommend you use the following commands:
+
+1. First, cd into the directory of the problem and compile to make a bin file with:
+
+```
+cd leectode/cpp/1-TwoSum
+g++ 1-TwoSum.cpp -o 1-TwoSum.bin
+```
+
+2. Generate a results file or print the results of the tests. If you want to just print in the console, ignore the results part.
+
+```
+cat testCases | ./1-TwoSum.bin > results
+```
+
+* Note: leetcode uses `clang` 9 to compile the code, with the latest C++ 17 standard. 
+
 ## List of problems
 
 |Problem and souce |Problem # |Difficulty|Language|
