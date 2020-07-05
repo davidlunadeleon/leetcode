@@ -49,3 +49,4 @@ cat testCases | ./1-TwoSum.bin > results
 |[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)|98|Medium|[C++](leetcode/cpp/98-ValidateBinarySearchTree/98-ValidateBinarySearchTree.cpp)|
 |[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/submissions/)|215|Medium|[C++](leetcode/cpp/215-KthLargestElementInAnArray/215-KthLargestElementInAnArray.cpp)|
 |[Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)|938|Easy|[C++](leetcode/cpp/938-RangeSumOfBST/938-RangeSumOfBST.cpp)|
+|[Minumum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/)|983|Medium|[C++](leetcode/cpp/983-MinimumCostForTickets/983-MinimumCostForTickets.cpp)|
