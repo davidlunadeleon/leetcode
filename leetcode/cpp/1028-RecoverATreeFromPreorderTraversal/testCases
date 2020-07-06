@@ -1,0 +1,13 @@
+3
+
+1-2--3--4-5--6--7
+7
+1 2 5 3 4 6 7
+
+1-2--3---4-5--6---7
+15
+1 2 5 3 null 6 null 4 null null null 7 null null null
+
+1-401---349---90--88
+11
+1 401 null 349 88 null null 90 null null null
