@@ -7,14 +7,7 @@
 #include <iostream>
 #include <vector>
 
-struct TreeNode {
-    int val;
-    TreeNode *left;
-    TreeNode *right;
-    TreeNode(): val(0), left(nullptr), right(nullptr) {}
-    TreeNode(int x): val(x), left(nullptr), right(nullptr) {}
-    TreeNode(int x, TreeNode *left, TreeNode *right): val(x), left(left), right(right) {}
-};
+#include "../lib/treeUtils/treeUtils.h"
 
 using namespace std;
 
@@ -60,18 +53,6 @@ TreeNode* makeTree(vector<string> tree){
     TreeNode *root;
     auxTreeMake(tree, 0, root);
     return root;
-}
-
-bool compareTrees(TreeNode* ans, TreeNode* tree){
-    if(ans == nullptr && tree == nullptr){
-        return true;
-    }
-    if(ans == nullptr && tree != nullptr || ans != nullptr && tree == nullptr || ans->val != tree->val){
-        return false;
-    }
-    bool left = compareTrees(ans->left, tree->left);
-    bool right = compareTrees(ans->right, tree->right);
-    return (left && right);
 }
 
 vector<string> makeTreeVector(int numElements){
