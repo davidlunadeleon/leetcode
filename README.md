@@ -1,29 +1,49 @@
 # leetcode
 
-These are my solutions to some leetcode problems
+These are my solutions to some leetcode problems.
 
 ## How to use the test cases
 
-Each problem includes a file with some test cases. Although these do not cover all possible cases, it should be enough to test each problem.
+The solutions can be directly tested in Leetcode without aditional steps. To test with the included main program, some other steps will be required.
 
-Just compile the `.cpp` file with and paste the contents of the `testCases` file in the terminal. Feel free to use these test cases or the main program and functions for your own solutions. New test cases are welcome :) .
+For the time being, this process will be a little bit messy until I finish making all libraries and makefiles necessary to compile each program individually.
 
-If you want to get fancy, I recommend you use the following commands:
+1. Compile the libraries included in /leetcode/cpp/lib/ with the `make` command
 
-1. First, cd into the directory of the problem and compile to make a bin file with:
-
-```
-cd leectode/cpp/1-TwoSum
-g++ 1-TwoSum.cpp -o 1-TwoSum.bin
-```
-
-2. Generate a results file or print the results of the tests. If you want to just print in the console, ignore the results part.
+Example with the treeUtils library
 
 ```
-cat testCases | ./1-TwoSum.bin > results
+$ cd ./leetcode/cpp/lib/treeUtils/
+$ make
 ```
 
-- Note: leetcode uses `clang` 9 to compile the code, with the latest C++ 17 standard.
+The console terminal should confirm that there are no errors in the compiling process.
+
+2. Compile the code of the problem you want to test.
+
+If you are using your own code, be sure to include it after the comment that says `//Leetcode solution starts`.
+Don't forget to include the `.a` file located in /leetcode/cpp/bin/ if a custom library is used.
+
+```
+$ cd ./leetcode/cpp/938-RangeSumOfBST/
+$ g++ 938-RangeSumOfBST.cpp ../bin/treeUtils.a -o 938-RangeSumOfBST.bin
+```
+
+3. Use the test cases and print the result either to the terminal or to a file
+
+```
+$ cat testCases | ./938-RangeSumOfBST.bin
+```
+
+Or
+
+```
+$ cat testCases | ./938-RangeSumOfBST.bin > results
+```
+
+## Contibuting
+
+Contributions of new test cases or code to receive the input of the test cases are always welcome :) .
 
 ## List of problems
 
