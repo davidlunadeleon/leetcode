@@ -1,2 +1,12 @@
+# Compiled programs for each problem
+
 *.bin
+
+# VSCode config
+
 .vscode
+
+# Libary files
+
+*.a
+*.o
