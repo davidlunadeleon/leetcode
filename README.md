@@ -10,10 +10,8 @@ For the time being, this process will be a little bit messy until I finish makin
 
 1. Compile the libraries included in /leetcode/cpp/lib/ with the `make` command
 
-Example with the treeUtils library
-
 ```
-$ cd ./leetcode/cpp/lib/treeUtils/
+$ cd ./leetcode/cpp/lib/
 $ make
 ```
 
