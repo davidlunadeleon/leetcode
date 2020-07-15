@@ -9,5 +9,6 @@
 
 bool compareTrees(TreeNode* ans, TreeNode* tree);
 TreeNode* makeTree(std::vector<std::string> tree);
+TreeNode* deleteTree(TreeNode*& node);
 
 #endif

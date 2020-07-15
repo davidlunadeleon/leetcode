@@ -35,3 +35,14 @@ TreeNode* makeTree(std::vector<std::string> tree){
     auxTreeMake(tree, 0, root);
     return root;
 }
+
+TreeNode* deleteTree(TreeNode*& node){
+    if(node->left != nullptr){
+       node->left = deleteTree(node->left);
+    }
+    if(node->right != nullptr){
+        node->right = deleteTree(node->right);
+    }
+    delete node;
+    return nullptr;
+}
