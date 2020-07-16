@@ -4,7 +4,7 @@
 #include <iostream>
 
 ListNode* makeLinkedList(int numElements){
-    ListNode* linkedList;
+    ListNode* linkedList = nullptr;
     if(numElements > 0){
         linkedList = new ListNode();
         ListNode* tempNode = linkedList;
@@ -30,7 +30,7 @@ bool compareLinkedLists(ListNode* head1, ListNode* head2){
         head1 = head1->next;
         head2 = head2->next;
     }
-    if(head1 == nullptr && head2 != nullptr || head2 == nullptr && head1 != nullptr){
+    if((head1 == nullptr && head2 != nullptr) || (head2 == nullptr && head1 != nullptr)){
         ans = false;
     }
     return ans;

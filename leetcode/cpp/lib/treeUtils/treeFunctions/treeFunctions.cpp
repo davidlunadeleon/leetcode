@@ -8,7 +8,7 @@ bool compareTrees(TreeNode* ans, TreeNode* tree){
     if(ans == nullptr && tree == nullptr){
         return true;
     }
-    if(ans == nullptr && tree != nullptr || ans != nullptr && tree == nullptr || ans->val != tree->val){
+    if((ans == nullptr && tree != nullptr) || (ans != nullptr && tree == nullptr) || ans->val != tree->val){
         return false;
     }
     bool left = compareTrees(ans->left, tree->left);
@@ -17,7 +17,7 @@ bool compareTrees(TreeNode* ans, TreeNode* tree){
 }
 
 void auxTreeMake(std::vector<std::string> &tree, int index, TreeNode *&node){
-    if(index >= tree.size()){
+    if((uint64_t)index >= tree.size()){
         return;
     }
     if(tree[index] != "null"){

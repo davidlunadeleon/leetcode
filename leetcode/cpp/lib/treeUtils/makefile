@@ -1,4 +1,5 @@
 CXX = g++
+CXXFLAGS = -Wall -Wextra -pedantic-errors -g -O2
 CLEANEXTS = o a
 INSTALLDIR = ../../bin
 OUTPUTFILE = treeUtils.a
