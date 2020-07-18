@@ -11,8 +11,8 @@ using namespace std;
 // Leetcode solution starts
 
 class Solution{
-    public:
-    
+	public:
+	
 };
 
 // Leetcode solution ends
@@ -22,11 +22,11 @@ void makeTest(){
 }
 
 int main(){
-    int numTests;
-    //Introduce the number of tests to make.
-    cin >> numTests;
-    for(int i = 0; i < numTests; i++){
-        makeTest();
-    }
-    return 0;
+	int numTests;
+	//Introduce the number of tests to make.
+	cin >> numTests;
+	for(int i = 0; i < numTests; i++){
+		makeTest();
+	}
+	return 0;
 }

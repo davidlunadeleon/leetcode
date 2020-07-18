@@ -13,7 +13,7 @@ using namespace std;
 
 class Solution {
 	public:
-    	int minAddToMakeValid(string S) {
+		int minAddToMakeValid(string S) {
 			stack<char> parenthesesStack;
 			int control = 0;
 			for(char s: S){
@@ -29,7 +29,7 @@ class Solution {
 			}
 			control += parenthesesStack.size();
 			return control;
-    	}
+		}
 };
 
 // Leetcode solution ends

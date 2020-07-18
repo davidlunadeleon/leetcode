@@ -12,35 +12,35 @@ using namespace std;
 // Leetcode solution starts
 
 class Solution {
-    public:
-        int getDecimalValue(ListNode* head) {
-            int ans = 0;
-            while(head != nullptr){
-                ans <<= 1;
-                ans += head->val;
-                head = head->next;
-            }
-            return ans;
-        }
+	public:
+		int getDecimalValue(ListNode* head) {
+			int ans = 0;
+			while(head != nullptr){
+				ans <<= 1;
+				ans += head->val;
+				head = head->next;
+			}
+			return ans;
+		}
 };
 
 // Leetcode solution ends
 
 void makeTest(){
-    int numElements, correctAns;
-    cin >> numElements;
-    ListNode* linkedList = makeLinkedList(numElements);
-    cin >> correctAns;
-    cout << (correctAns == Solution().getDecimalValue(linkedList) ? "pass\n" : "fail\n");
-    deleteLinkedList(linkedList);
+	int numElements, correctAns;
+	cin >> numElements;
+	ListNode* linkedList = makeLinkedList(numElements);
+	cin >> correctAns;
+	cout << (correctAns == Solution().getDecimalValue(linkedList) ? "pass\n" : "fail\n");
+	deleteLinkedList(linkedList);
 }
 
 int main(){
-    int numTests;
-    //Introduce the number of tests to make.
-    cin >> numTests;
-    for(int i = 0; i < numTests; i++){
-        makeTest();
-    }
-    return 0;
+	int numTests;
+	//Introduce the number of tests to make.
+	cin >> numTests;
+	for(int i = 0; i < numTests; i++){
+		makeTest();
+	}
+	return 0;
 }
