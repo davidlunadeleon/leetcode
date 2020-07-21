@@ -1,4 +1,4 @@
-//Made By David Luna
+// Made By David Luna
 
 #pragma once
 
@@ -6,10 +6,10 @@
 #define _LINKED_LIST_FUNCTIONS
 
 #include "../listNode/listNode.h"
-#include<iostream>
+#include <iostream>
 
-ListNode* makeLinkedList(int numElements);
-bool compareLinkedLists(ListNode* head1, ListNode* head2);
-void deleteLinkedList(ListNode*& head);
+ListNode *makeLinkedList(int numElements);
+bool compareLinkedLists(ListNode *head1, ListNode *head2);
+void deleteLinkedList(ListNode *&head);
 
 #endif

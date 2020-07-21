@@ -4,11 +4,11 @@
 #define _TREE_FUNCTIONS
 
 #include "../treeNode/treeNode.h"
-#include <vector>
 #include <string>
+#include <vector>
 
-bool compareTrees(TreeNode* ans, TreeNode* tree);
-TreeNode* makeTree(std::vector<std::string> tree);
-TreeNode* deleteTree(TreeNode*& node);
+bool compareTrees(TreeNode *ans, TreeNode *tree);
+TreeNode *makeTree(std::vector<std::string> tree);
+TreeNode *deleteTree(TreeNode *&node);
 
 #endif

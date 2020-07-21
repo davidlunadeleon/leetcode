@@ -1,8 +1,8 @@
-//Source:
-//Date:
-//Solution by:
-//Runtime:
-//Memory usage:
+// Source:
+// Date:
+// Solution by:
+// Runtime:
+// Memory usage:
 
 #include <iostream>
 
@@ -10,22 +10,19 @@ using namespace std;
 
 // Leetcode solution starts
 
-class Solution{
-	public:
-	
+class Solution {
+  public:
 };
 
 // Leetcode solution ends
 
-void makeTest(){
+void makeTest() {}
 
-}
-
-int main(){
+int main() {
 	int numTests;
-	//Introduce the number of tests to make.
+	// Introduce the number of tests to make.
 	cin >> numTests;
-	for(int i = 0; i < numTests; i++){
+	for (int i = 0; i < numTests; i++) {
 		makeTest();
 	}
 	return 0;

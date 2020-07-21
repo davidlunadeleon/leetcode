@@ -1,4 +1,4 @@
-//Taken from https://www.leetcode.com
+// Taken from https://www.leetcode.com
 
 #pragma once
 
@@ -7,7 +7,7 @@
 
 struct ListNode {
 	int val;
-	ListNode* next;
+	ListNode *next;
 	ListNode();
 	ListNode(int x);
 	ListNode(int x, ListNode *next);
