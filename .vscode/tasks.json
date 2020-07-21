@@ -1,0 +1,29 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "C/C++: g++ build active file",
+			"command": "/usr/bin/g++",
+			"args": [
+				"-Wextra",
+				"-Wall",
+				"-pedantic-errors",
+				"-g",
+				"${file}",
+				"${workspaceFolder}/leetcode/cpp/bin/treeUtils.a",
+				"${workspaceFolder}/leetcode/cpp/bin/linkedListUtils.a",
+				"-o",
+				"${fileDirname}/${fileBasenameNoExtension}.bin"
+			],
+			"options": {
+				"cwd": "${workspaceFolder}"
+			},
+			"problemMatcher": ["$gcc"],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}

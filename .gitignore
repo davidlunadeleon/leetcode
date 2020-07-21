@@ -2,10 +2,6 @@
 
 *.bin
 
-# VSCode config
-
-.vscode
-
 # Libary files
 
 *.a
