@@ -8,7 +8,7 @@ The solutions can be directly tested in Leetcode without aditional steps. To tes
 
 For the time being, this process will be a little bit messy until I finish making all libraries and makefiles necessary to compile each program individually.
 
-1. Compile the libraries included in /leetcode/cpp/lib/ with the `make` command
+#### 1. Compile the libraries included in /leetcode/cpp/lib/ with the `make` command
 
 ```
 $ cd ./leetcode/cpp/lib/
@@ -16,6 +16,15 @@ $ make
 ```
 
 The console terminal should confirm that there are no errors in the compiling process.
+
+#### Using VSCode
+
+2. A `.vscode` directory is located at the root of the project, it includes files to specify the compiling and debugging options to use.
+
+-   To compile simply press `Ctrl + Shift + B`.
+-   To debug press `F5`.
+
+#### Compiling yourself
 
 2. Compile the code of the problem you want to test.
 
@@ -29,7 +38,7 @@ $ g++ 938-RangeSumOfBST.cpp ../bin/treeUtils.a -o 938-RangeSumOfBST.bin
 
 -   Use of -Wall -Wextra and -pedantic-erros flags is recommended
 
-3. Use the test cases and print the result either to the terminal or to a file
+#### 3. Use the test cases and print the result either to the terminal or to a file
 
 ```
 $ cat testCases | ./938-RangeSumOfBST.bin
@@ -41,7 +50,7 @@ Or
 $ cat testCases | ./938-RangeSumOfBST.bin > results
 ```
 
-## Contibuting
+## Contributing
 
 Contributions of new test cases or code to receive the input of the test cases are always welcome :) .
 
