@@ -38,12 +38,11 @@ TreeNode *makeTree(std::vector<std::string> tree) {
 }
 
 TreeNode *deleteTree(TreeNode *&node) {
-	if (node->left != nullptr) {
-		node->left = deleteTree(node->left);
+	if (!node) {
+		return nullptr;
 	}
-	if (node->right != nullptr) {
-		node->right = deleteTree(node->right);
-	}
+	node->left = deleteTree(node->left);
+	node->right = deleteTree(node->right);
 	delete node;
 	return nullptr;
 }
