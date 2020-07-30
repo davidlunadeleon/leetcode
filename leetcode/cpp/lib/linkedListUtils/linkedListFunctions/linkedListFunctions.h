@@ -7,8 +7,9 @@
 
 #include "../listNode/listNode.h"
 #include <iostream>
+#include <vector>
 
-ListNode *makeLinkedList(int numElements);
+ListNode *makeLinkedList(std::vector<int> list);
 bool compareLinkedLists(ListNode *head1, ListNode *head2);
 void deleteLinkedList(ListNode *&head);
 

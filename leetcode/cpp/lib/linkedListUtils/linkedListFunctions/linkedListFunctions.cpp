@@ -2,16 +2,16 @@
 
 #include "./linkedListFunctions.h"
 #include <iostream>
+#include <vector>
 
-ListNode *makeLinkedList(int numElements) {
+ListNode *makeLinkedList(std::vector<int> list) {
+	uint64_t size = list.size();
 	ListNode *linkedList = nullptr;
-	if (numElements > 0) {
+	if (size > 0) {
 		linkedList = new ListNode();
 		ListNode *tempNode = linkedList;
-		for (int i = 0; i < numElements; i++) {
-			int temp;
-			std::cin >> temp;
-			linkedList->next = new ListNode(temp);
+		for (uint64_t i = 0; i < size; i++) {
+			linkedList->next = new ListNode(list[i]);
 			linkedList = linkedList->next;
 		}
 		linkedList = tempNode->next;
