@@ -1,5 +1,4 @@
-// Source:
-// https://leetcode.com/explore/challenge/card/august-leetcoding-challenge/549/week-1-august-1st-august-7th/3409/
+// Source: https://leetcode.com/problems/detect-capital/
 // Date: 01.08.2020
 // Solution by: David Luna
 // Runtime: 0ms
