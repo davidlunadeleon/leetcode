@@ -2,9 +2,17 @@
 
 These are my solutions to some leetcode problems.
 
+## About the contents of this repo
+
+This repository contains solutions to the main leetcode problems and some of the challenges.
+More info about the challenges can be found [here](leetcode/leetcoding_challenges/README.md)
+
 ## How to use the test cases
 
 The solutions can be directly tested in Leetcode without aditional steps. To test with the included main program, some other steps will be required.
+
+<details>
+	<summary>Click me!</summary>
 
 For the time being, this process will be a little bit messy until I finish making all libraries and makefiles necessary to compile each program individually.
 
@@ -50,9 +58,12 @@ Or
 $ cat testCases | ./938-RangeSumOfBST.bin > results
 ```
 
+</details>
+
 ## Contributing
 
-Contributions of new test cases or code to receive the input of the test cases are always welcome :) .
+Contributions of new test cases or code to improve testing of each problem or upgrade functionality of libraries are always welcome.
+Better solutions to already solved problems are welcome too.
 
 ## List of problems
 
