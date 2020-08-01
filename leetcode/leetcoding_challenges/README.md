@@ -8,10 +8,10 @@ Each challenge has a dedicated directory where solutions can be found with a `.c
 
 ## How to use the test cases
 
-Please refed to the main [README](../../README.md)
+Please refer to the main [README](../../README.md)
 
 ## Problems solved
 
 | Challenge   | Problem ans source                                                                                                                          | Language                                            |
 | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------- |
-| August 2020 | August 1st [Detect Capital](https://leetcode.com/explore/challenge/card/august-leetcoding-challenge/549/week-1-august-1st-august-7th/3409/) | [C++](august_2020/week1/august1/detect_capital.cpp) |
+| August 2020 | August 1st [Detect Capital](https://leetcode.com/explore/challenge/card/august-leetcoding-challenge/549/week-1-august-1st-august-7th/3409/) | [C++](august_2020/week1/august1/detect_capitals.cpp) |
