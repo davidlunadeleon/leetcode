@@ -32,12 +32,14 @@ class MyHashSet {
 						curr = curr->right;
 					} else {
 						curr->right = new TreeNode(key);
+						break;
 					}
 				} else {
 					if (curr->left) {
 						curr = curr->left;
 					} else {
 						curr->left = new TreeNode(key);
+						break;
 					}
 				}
 			}
@@ -57,10 +59,8 @@ class MyHashSet {
 				}
 				curr = key > curr->val ? curr->right : curr->left;
 			}
-			return false;
-		} else {
-			return false;
 		}
+		return false;
 	}
 
   private:
