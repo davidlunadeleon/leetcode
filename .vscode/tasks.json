@@ -13,6 +13,7 @@
 				"${file}",
 				"${workspaceFolder}/leetcode/cpp/bin/treeUtils.a",
 				"${workspaceFolder}/leetcode/cpp/bin/linkedListUtils.a",
+				"${workspaceFolder}/leetcode/cpp/bin/vectorUtils.a",
 				"-o",
 				"${fileDirname}/${fileBasenameNoExtension}.bin"
 			],
