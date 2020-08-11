@@ -8,7 +8,7 @@
 #include <iostream>
 #include <vector>
 
-template <typename T> void makeVectorT(std::vector<T> &vect, int size) {
+template <typename T> void makeVectorT(std::vector<T> &vect, int size = 0) {
 	vect.clear();
 	if (size <= 0) {
 		std::cin >> size;
@@ -21,7 +21,7 @@ template <typename T> void makeVectorT(std::vector<T> &vect, int size) {
 }
 
 template <typename T>
-void makeMatrixT(std::vector<std::vector<T>> &matrix, int r, int c) {
+void makeMatrixT(std::vector<std::vector<T>> &matrix, int r = 0, int c = 0) {
 	matrix.clear();
 	if (r <= 0 || c <= 0) {
 		std::cin >> r >> c;
