@@ -66,7 +66,7 @@ Better solutions to already solved problems are welcome too.
 
 ## List of problems
 
-| Problem # | Problem and souce                                                                                                                                 | Difficulty | Language                                                                                                          |
+| Problem # | Problem and source                                                                                                                                | Difficulty | Language                                                                                                          |
 | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | ----------------------------------------------------------------------------------------------------------------- |
 | 1         | [Two Sum](https://leetcode.com/problems/two-sum/)                                                                                                 | Easy       | [C++](leetcode/cpp/1-TwoSum/1-TwoSum.cpp)                                                                         |
 | 2         | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)                                                                                 | Medium     | [C++](leetcode/cpp/p2/p2.cpp)                                                                                     |
