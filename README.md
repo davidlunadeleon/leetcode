@@ -4,8 +4,7 @@ These are my solutions to some leetcode problems.
 
 ## About the contents of this repo
 
-This repository contains solutions to the main leetcode problems and some of the challenges.
-More info about the challenges can be found [here](leetcode/leetcoding_challenges/README.md)
+This repository contains solutions to some leetcode problems.
 
 ## How to use the test cases
 
