@@ -6,8 +6,6 @@
 
 #include <iostream>
 
-using namespace std;
-
 // Leetcode solution starts
 
 class Solution {
@@ -20,8 +18,7 @@ void makeTest() {}
 
 int main() {
 	int numTests;
-	// Introduce the number of tests to make.
-	cin >> numTests;
+	std::cin >> numTests;
 	for (int i = 0; i < numTests; i++) {
 		makeTest();
 	}
