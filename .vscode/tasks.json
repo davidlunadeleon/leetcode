@@ -25,6 +25,28 @@
 				"kind": "build",
 				"isDefault": true
 			}
+		},
+		{
+			"type": "shell",
+			"label": "gcc build active C file",
+			"command": "/usr/bin/gcc",
+			"args": [
+				"-Wextra",
+				"-Wall",
+				"-pedantic-errors",
+				"-g",
+				"${file}",
+				"-o",
+				"${fileDirname}/${fileBasenameNoExtension}.bin"
+			],
+			"options": {
+				"cwd": "${workspaceFolder}"
+			},
+			"problemMatcher": ["$gcc"],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
 		}
 	]
 }
