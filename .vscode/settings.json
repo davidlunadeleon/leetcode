@@ -3,5 +3,8 @@
 	"[cpp]": {
 		"editor.defaultFormatter": "xaver.clang-format"
 	},
+	"[c]": {
+		"editor.defaultFormatter": "xaver.clang-format"
+	},
 	"editor.defaultFormatter": "esbenp.prettier-vscode"
 }
