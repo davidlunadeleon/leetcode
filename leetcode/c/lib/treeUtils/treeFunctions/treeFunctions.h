@@ -8,5 +8,6 @@
 #include "../treeNode/treeNode.h"
 
 bool compareTrees(struct TreeNode *ans, struct TreeNode *tree);
+struct TreeNode *makeTree(char **tree, int size);
 
 #endif
