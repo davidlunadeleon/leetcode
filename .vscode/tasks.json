@@ -36,6 +36,7 @@
 				"-pedantic-errors",
 				"-g",
 				"${file}",
+				"${workspaceFolder}/leetcode/c/bin/treeUtils.a",
 				"-o",
 				"${fileDirname}/${fileBasenameNoExtension}.bin"
 			],
