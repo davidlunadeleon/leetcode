@@ -24,14 +24,14 @@ bool compareTrees(struct TreeNode *ans, struct TreeNode *tree) {
 	return (left && right);
 }
 
-void auxMakeTree(char **tree, int size, int index, struct TreeNode *node) {
+void auxMakeTree(char **tree, int size, int index, struct TreeNode **node) {
 	if (index >= size) {
 		return;
 	}
-	if (!strcmp(tree[index], "null")) {
-		node = initTreeNodeInt(atoi(tree[index]));
-		auxMakeTree(tree, size, (index * 2) + 1, node->left);
-		auxMakeTree(tree, size, (index * 2) + 2, node->right);
+	if (strcmp(tree[index], "null")) {
+		*node = initTreeNodeInt(atoi(tree[index]));
+		auxMakeTree(tree, size, (index * 2) + 1, &(*node)->left);
+		auxMakeTree(tree, size, (index * 2) + 2, &(*node)->right);
 	}
 }
 
@@ -41,7 +41,7 @@ struct TreeNode *makeTree(char **tree, int size) {
 	}
 
 	struct TreeNode *root = NULL;
-	auxMakeTree(tree, size, 0, root);
+	auxMakeTree(tree, size, 0, &root);
 
 	return root;
 }

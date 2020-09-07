@@ -23,12 +23,10 @@ struct TreeNode *initTreeNodeFull(int x, struct TreeNode *left,
 	return ptr;
 }
 
-struct TreeNode *deleteTree(struct TreeNode *node) {
-	if (!node) {
-		return NULL;
+void deleteTree(struct TreeNode *node) {
+	if (node) {
+		deleteTree(node->left);
+		deleteTree(node->right);
+		free(node);
 	}
-	node->left = deleteTree(node->left);
-	node->right = deleteTree(node->right);
-	free(node);
-	return NULL;
 }

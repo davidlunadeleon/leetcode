@@ -16,6 +16,6 @@ struct TreeNode *initTreeNodeInt(int x);
 struct TreeNode *initTreeNodeFull(int x, struct TreeNode *left,
 								  struct TreeNode *right);
 
-struct TreeNode *deleteTree(struct TreeNode *node);
+void deleteTree(struct TreeNode *node);
 
 #endif
