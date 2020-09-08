@@ -39,6 +39,7 @@
 				"-fsanitize=address",
 				"${file}",
 				"${workspaceFolder}/leetcode/c/bin/treeUtils.a",
+				"${workspaceFolder}/leetcode/c/bin/vectorUtils.a",
 				"-o",
 				"${fileDirname}/${fileBasenameNoExtension}.bin"
 			],
