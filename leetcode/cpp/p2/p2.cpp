@@ -1,69 +1,64 @@
 // Source: https://leetcode.com/problems/add-two-numbers/
 // Date: 17.06.2020
 // Solution by: David Luna
-// Runtime: 40ms
-// Memory usage: 70.3 MB
+// Runtime: 44ms
+// Memory usage: 71.2 MB
 
 #include <iostream>
 #include <vector>
 
 #include "../lib/linkedListUtils/linkedListUtils.h"
-
-using namespace std;
+#include "../lib/vectorUtils/vectorUtils.h"
 
 // Leetcode solution starts
 
 class Solution {
   public:
 	ListNode *addTwoNumbers(ListNode *l1, ListNode *l2) {
-		ListNode *ans = new ListNode();
-		ListNode *ptrAns = ans;
-		int carry = 0;
-		while (l1 != nullptr || l2 != nullptr || carry != 0) {
-			if (l1 != nullptr) {
+		ListNode *ans, *ptrAns;
+		int carry;
+
+		ans = new ListNode();
+		ptrAns = ans;
+		carry = 0;
+		while (l1 || l2) {
+			if (l1) {
 				carry += l1->val;
 				l1 = l1->next;
 			}
-			if (l2 != nullptr) {
+			if (l2) {
 				carry += l2->val;
 				l2 = l2->next;
 			}
-			ans->next = new ListNode(carry % 10);
-			ans = ans->next;
+			ans = (ans->next = new ListNode(carry % 10));
 			carry /= 10;
 		}
-		ListNode *temp = ptrAns;
-		ptrAns = ptrAns->next;
-		delete temp;
-		return ptrAns;
+		if (carry) {
+			ans->next = new ListNode(carry);
+		}
+
+		ans = ptrAns->next;
+		delete ptrAns;
+		return ans;
 	}
 };
 
 // Leetcode solution ends
 
-template <typename T> void makeVectorT(vector<T> &vect) {
-	int numElements;
-	cin >> numElements;
-	for (int i = 0; i < numElements; i++) {
-		T temp;
-		cin >> temp;
-		vect.push_back(temp);
-	}
-}
-
 void makeTest() {
-	bool checkAns = false;
 	ListNode *l1, *l2, *ans, *correctAns;
-	vector<int> l1vector, l2vector, correctAnsVector;
+	std::vector<int> l1vector, l2vector, correctAnsVector;
+
 	makeVectorT(l1vector);
 	makeVectorT(l2vector);
 	makeVectorT(correctAnsVector);
 	l1 = makeLinkedList(l1vector);
 	l2 = makeLinkedList(l2vector);
 	correctAns = makeLinkedList(correctAnsVector);
+
 	ans = Solution().addTwoNumbers(l1, l2);
-	checkAns = compareLinkedLists(ans, correctAns);
-	cout << (checkAns ? "pass\n" : "fail\n");
+	std::cout << (compareLinkedLists(ans, correctAns) ? "pass\n" : "fail\n");
+
 	deleteLinkedList(ans);
 	deleteLinkedList(correctAns);
 	deleteLinkedList(l1);
@@ -72,8 +67,7 @@ void makeTest() {
 
 int main() {
 	int numTests;
-	// Introduce the number of tests to make.
-	cin >> numTests;
+	std::cin >> numTests;
 	for (int i = 0; i < numTests; i++) {
 		makeTest();
 	}
