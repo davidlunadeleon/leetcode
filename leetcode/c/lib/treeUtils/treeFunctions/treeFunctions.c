@@ -1,6 +1,6 @@
 // Made by David Luna
 
-#include "../treeNode/treeNode.h"
+#include "./treeFunctions.h"
 
 #include <stdbool.h>
 #include <stddef.h>
