@@ -23,7 +23,7 @@ struct ListNode *initListNodeFull(int x, struct ListNode *next) {
 
 void deleteLinkedList(struct ListNode *node) {
 	if (node) {
-		deleteList(node->next);
+		deleteLinkedList(node->next);
 		free(node);
 	}
 }

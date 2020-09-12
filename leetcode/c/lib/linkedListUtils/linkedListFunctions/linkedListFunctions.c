@@ -2,6 +2,8 @@
 
 #include "./linkedListFunctions.h"
 
+#include <stdlib.h>
+
 bool compareLinkedLists(struct ListNode *l1, struct ListNode *l2) {
 	if (!l1 && !l2) {
 		return true;

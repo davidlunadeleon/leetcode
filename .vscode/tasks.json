@@ -40,6 +40,7 @@
 				"${file}",
 				"${workspaceFolder}/leetcode/c/bin/treeUtils.a",
 				"${workspaceFolder}/leetcode/c/bin/vectorUtils.a",
+				"${workspaceFolder}/leetcode/c/bin/linkedListUtils.a",
 				"-o",
 				"${fileDirname}/${fileBasenameNoExtension}.bin"
 			],
