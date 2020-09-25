@@ -10,6 +10,7 @@
 				"-Wall",
 				"-pedantic-errors",
 				"-fsanitize=address",
+				"-std=c++17",
 				"-g",
 				"${file}",
 				"${workspaceFolder}/leetcode/cpp/bin/treeUtils.a",
